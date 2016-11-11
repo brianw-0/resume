@@ -366,6 +366,9 @@ body {
 @media (max-width: 1300px) {
 	.background-image-wrapper {
 		background-size: 70%;
+		background-attachment: scroll;
+		background-size: cover;
+		background-position: center;
 	}
 }
 

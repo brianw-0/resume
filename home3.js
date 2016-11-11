@@ -127,11 +127,18 @@ $(".contact-info").hover(function() { //On hover
 $(".fa-bars").click(function() { //activate description
 	
 	$(this).removeClass("active");
-	$(this).next().addClass("active");						//changes icon
-	$(this).parents().eq(0).prev().addClass("active");		//remove text
-	$(this).parents().eq(1).addClass("active");    			//slides up wrapper
+	$(this).next().addClass("active");						//changes icon, fa bars
+	$(this).parents().eq(0).prev().addClass("active");		//add text, affects project description
+	$(this).parents().eq(1).addClass("active");    			//slides down wrapper, affects projects description wrapper
 	
 });
+$(".project-image").click(function() {
+	$(this).next().addClass("active");  //slide down wrapper
+	$(this).next().children().eq(0).addClass("active");  //add text
+	$(this).next().children().eq(1).children().eq(0).removeClass("active");  //remove fa bars
+	$(this).next().children().eq(1).children().eq(1).addClass("active");  //add fa times
+});
+
 $(".fa-times").click(function() { //deactivate description
 	
 	$(this).removeClass("active");							
