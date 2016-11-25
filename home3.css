@@ -12,7 +12,6 @@
 	url("fonts/ostrich-sans/ostrich-regular.woff") format("woff");
 	font-weight: normal;
 	font-style: normal;
-	
 }
 @font-face {
 	font-family: "ostrich-black";
@@ -870,6 +869,12 @@ body {
 	display: none;
 }
 .contact-linkedin.active {
+	display: block;
+}
+.contact-github {
+	display: none;
+}
+.contact-github.active {
 	display: block;
 }
 

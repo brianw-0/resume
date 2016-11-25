@@ -114,12 +114,16 @@ $(".language-option").hover(function() {  //on hover
 $(".contact-info").hover(function() { //On hover
 	var link_number = $(this).index();
 	if(link_number == 0) {
-		$(".contact-email").removeClass("active");
+		$(".contact-link div").removeClass("active");
 		$(".contact-linkedin").addClass("active");
 	}
 	else if(link_number == 1) {
-		$(".contact-linkedin").removeClass("active");
+		$(".contact-link div").removeClass("active");
 		$(".contact-email").addClass("active");
+	}
+	else if(link_number == 2) {
+		$(".contact-link div").removeClass("active");
+		$(".contact-github").addClass("active");
 	}
 });
 
