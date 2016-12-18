@@ -232,6 +232,11 @@ body {
 		margin-top: 40vh;
 	}
 }
+@media (max-width: 625px) {
+	.landing-introduction-wrapper {
+		font-size: 2em;
+	}
+}
 .landing-introduction {
 	margin: 0.2em;
 	letter-spacing: 0.1em;
@@ -305,6 +310,11 @@ body {
 	
 	opacity: 0;
 	transition: opacity 2s;
+}
+@media (max-width: 625px) {
+	.landing-end-greeting {
+		font-size: 2em;
+	}
 }
 .landing-end-greeting.appear {
 	opacity: 1;
@@ -536,12 +546,24 @@ body {
 	margin-left: 4em;
 	margin-right: 6em;
 }
+@media (max-width: 850px) {
+	.pro-experience-title {
+		margin-left: 2em;
+		margin-right: 2em;
+	}
+}
 .pro-date {
 	font-family: "ostrich-black";
 	letter-spacing: 0.1em;
 	margin-left: 6em;
 	margin-right: 6em;
 	font-size: 0.8em;
+}
+@media (max-width: 850px) {
+	.pro-date {
+		margin-left: 2em;
+		margin-right: 2em;
+	}
 }
 .pro-text {
 	margin-top: 0.85em;
@@ -555,6 +577,8 @@ body {
 @media (max-width: 850px) {
 	.pro-text {
 		font-size: 20px;
+		margin-left: 2em;
+		margin-right: 2em;
 	}
 }
 .pro-text-list {
@@ -661,6 +685,12 @@ body {
 	opacity: 0;
 	
 	transition: opacity 0.5s;
+}
+@media (max-width: 900px) {
+	.languages-sentence {
+		margin-top: 0.3em;
+		display: block;
+	}
 }
 .languages-sentence.active {
 	opacity: 1;
