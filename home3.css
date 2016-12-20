@@ -688,7 +688,7 @@ body {
 }
 @media (max-width: 900px) {
 	.languages-sentence {
-		margin-top: 0.3em;
+		padding-top: 0.3em;
 		display: block;
 	}
 }
