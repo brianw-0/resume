@@ -716,6 +716,7 @@ body {
 	column-count: 3;
 
 	margin: 2em 6em 0em 2em;
+	padding-bottom: 2em;
 	
 }
 @media (max-width: 1600px) {
@@ -763,7 +764,7 @@ body {
 	background-image: url("images/macroimpact.png");
 }
 .project-image.proj3 {
-	background-image: url("images/pinterest.png");
+	background-image: url("images/devpost.png");
 }
 
 .project-link-wrapper {
