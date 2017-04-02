@@ -32,7 +32,7 @@ This changes the phrase to the next one, or circles round and comes back to the 
 Then add_letters is called again using a setInterval, and we have a loop.
 */	
 	
-var greeting_phrases = ["hope you enjoy your visit.","make websites for fun.", "help build drones.", "speak 3 languages.",
+var greeting_phrases = ["hope you enjoy your visit.","make music for fun.", "like to study computer vision.", "speak 3 languages.",
  "listen to all sorts of music."];
 var phrase_index = 0;  //Current index in the phrase list
 var current_phrase = greeting_phrases[phrase_index]; //Current phrase in the index
